@@ -1,6 +1,6 @@
 
-# 📕 Notes Manager C++
-> 📚 Projeto desenvolvido para fins de estudo e prática da linguagem C++.
+#  Notes Manager C++
+> Projeto desenvolvido para fins de estudo e prática da linguagem C++.
 
 ![C++](https://img.shields.io/badge/C%2B%2B-blue?logo=cplusplus&logoColor=white)
 ![STL](https://img.shields.io/badge/STL-Standard%20Template%20Library-blueviolet)
@@ -16,7 +16,7 @@ Desenvolvi este projeto para consolidar meus conhecimentos em C++, aplicando na 
 > Use apenas entradas válidas para evitar travamentos.
 
 
-## 📷 Demonstração
+## Demonstração
 
 ![Menu](assents/Menu.png)
 
@@ -25,12 +25,12 @@ Desenvolvi este projeto para consolidar meus conhecimentos em C++, aplicando na 
 ![Ver](assents/visualizaranotacoes.png)
 
 
-## ✨ Funcionalidades
+## Funcionalidades
 
-* ✅ Criar anotações
-* ✏️ Editar anotações
-* ❌ Excluir anotações
-* 👀 Visualizar todas as anotações
+* Criar anotações
+* Editar anotações
+* Excluir anotações
+* Visualizar todas as anotações
 
 Cada anotação possui:
 
@@ -39,12 +39,12 @@ Cada anotação possui:
 * Descrição
 
 
-## ⚒️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - C++
 - Standard Template Library (STL)
 
-## 📂 Estrutura do projeto
+## Estrutura do projeto
 
 ```
 NotesManager/
@@ -57,7 +57,7 @@ NotesManager/
 └── .gitignore
 ```
 
-## 🚀 Como executar
+## Como executar
 
 Clone o repositório:
 
@@ -91,7 +91,7 @@ Execute:
 notes.exe
 ```
 
-## 🎯 Objetivo do projeto
+## Objetivo do projeto
 
 Este é meu primeiro projeto desenvolvido, com o objetivo de praticar:
 
@@ -104,7 +104,7 @@ Este é meu primeiro projeto desenvolvido, com o objetivo de praticar:
 - Operações CRUD em memória
 - Operações com git
 
-## 📌 Possíveis melhorias futuras
+## Possíveis melhorias futuras
 
 - [ ] Salvar as anotações em arquivo
 - [ ] Buscar anotações pelo nome
@@ -112,7 +112,7 @@ Este é meu primeiro projeto desenvolvido, com o objetivo de praticar:
 - [ ] Melhorar a interface do terminal
 - [ ] Dividir o projeto em múltiplos arquivos (`.cpp` e `.h`)
 
-## 👨‍💻 Autor
+## Autor
 
 Desenvolvido por **Matheus Almeida**.
 
