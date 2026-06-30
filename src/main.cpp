@@ -46,6 +46,12 @@ void editarAnot(vector <anotacao> &a, int &option) {
     int opcao1;
     cin >> opcao1;
 
+    if (opcao1 < 1 || opcao1 > a.size()) {
+    cout << "Anotacao inexistente!\n";
+    option = 0;
+    return;
+    }
+
     cout << endl << "Escolha qual informação deseja editar (Digite 1 para nome, 2 para data e 3 para descrição)" << endl;
 
     int opcao2;
@@ -100,6 +106,12 @@ void excluirAnot(vector <anotacao> &a, int &option){
     int opcao1;
     cin >> opcao1;
 
+    if (opcao1 < 1 || opcao1 > a.size()) {
+    cout << "Anotacao inexistente!\n";
+    option = 0;
+    return;
+    }
+
     while (opcao1 > 0) {
 
     a.erase(a.begin() + (opcao1 - 1));
@@ -153,9 +165,15 @@ void menu (vector <anotacao> &a, int &option) {
     cout << "1 - Fazer anotação" << endl;
     cout << "2 - Excluir anotação" << endl;
     cout << "3 - Editar anotação" << endl;
-    cout << "4 - Visualizar anotações" << endl << endl;
+    cout << "4 - Visualizar anotações" << endl;
+    cout << "5 - Sair" << endl << endl;
 
     cin >> option;
+
+    while (option < 1 || option > 5) {
+    cout << "Opcao invalida!\n";
+    cin >> option;
+    }
 
     cout << "---------------------------------------------" << endl;
 
@@ -174,7 +192,7 @@ int main() {
 
     int option = 0;
 
-    while (option == 0) {
+    while (option != 5) {
     menu(anot, option);
     }
 
