@@ -10,6 +10,11 @@ Um sistema simples de gerenciamento de anotações desenvolvido em C++ para prat
 
 Desenvolvi este projeto para consolidar meus conhecimentos em C++, aplicando na prática os conceitos aprendidos na disciplina de Fundamentos de Programação (FUP) da faculdade e construindo meu primeiro sistema completo.
 
+> ⚠️ **Atenção**
+>
+> O sistema pode entrar em loop infinito se forem inseridos caracteres não numéricos em campos que exigem apenas números.
+> Use apenas entradas válidas para evitar travamentos.
+
 
 ## 📷 Demonstração
 
