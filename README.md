@@ -1,11 +1,23 @@
 
 # 📕 Notes Manager C++
+> 📚 Projeto desenvolvido para fins de estudo e prática da linguagem C++.
+
 ![C++](https://img.shields.io/badge/C%2B%2B-blue?logo=cplusplus&logoColor=white)
 ![STL](https://img.shields.io/badge/STL-Standard%20Template%20Library-blueviolet)
 ![Terminal](https://img.shields.io/badge/Interface-Terminal-black?logo=gnubash&logoColor=white)
 
 Um sistema simples de gerenciamento de anotações desenvolvido em C++ para praticar conceitos fundamentais da linguagem, como `struct`, `std::vector`, `std::string` e modularização com funções.
 
+Desenvolvi este projeto para consolidar meus conhecimentos em C++, aplicando na prática os conceitos aprendidos na disciplina de Fundamentos de Programação (FUP) da faculdade e construindo meu primeiro sistema completo.
+
+
+## 📷 Demonstração
+
+![Menu](assents/Menu.png)
+
+![Criar](assents/inseriranotacao.png)
+
+![Ver](assents/visualizaranotacoes.png)
 
 
 ## ✨ Funcionalidades
@@ -45,7 +57,7 @@ NotesManager/
 Clone o repositório:
 
 ```bash
-git clone https://github.com/SEU-USUARIO/NotesManager.git
+git clone https://github.com/MatheusAlmeida-Oliveira/NotesManager.git
 ```
 
 Entre na pasta:
@@ -98,5 +110,6 @@ Este é meu primeiro projeto desenvolvido, com o objetivo de praticar:
 ## 👨‍💻 Autor
 
 Desenvolvido por **Matheus Almeida**.
+
 
 
